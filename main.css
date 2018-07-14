@@ -14,7 +14,7 @@ h1, h2, h3, h4, p, a {
 
 h1 {
 	font-weight: 900;
-	line-height: 1.2;
+	line-height: 1.1;
 	padding-bottom: 2rem;
 }
 
@@ -113,6 +113,12 @@ div.project {
 }
 
 div.project.p1 {
+	background-image: 
+		url(images/swirls-outline.svg),
+		url(images/swirls-filled.svg);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
+	background-size: 40%, 70%;
 	background-color: #74CFFF;
 }
 
@@ -143,6 +149,9 @@ div.project.p5 img {
 	width: 80%;
 }
 
+
+/**   Media Queries   **/
+
 @media (max-width: 767.98px) { 
 	div.project.p1 img,
 	div.project.p3 img {
@@ -154,6 +163,10 @@ div.project.p5 img {
 	div.project.p5 img {
 		width: 100%;
 		padding: 2.5rem 0;
+	}
+
+	div.project.p1 {
+		background-size: 65%, 100%;
 	}
 
 }
