@@ -70,6 +70,9 @@ div.col-md-4 {
 }
 
 div.info-side {
+	background-image: url(images/wavy-blob.svg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
 	background: #F8F8F8;  
 	-webkit-box-shadow: 12px 0 66px rgba(0, 0, 0, 0.25); 
 	-moz-box-shadow: 12px 0 66px rgba(0, 0, 0, 0.25); 
@@ -97,8 +100,8 @@ div.portfolio-side img {
 }
 
 .svg-ds-darker {
-	-webkit-filter: drop-shadow(0 14px 16px rgba(0,0,0,0.6));
-  filter: drop-shadow(0 14px 16px rgba(0,0,0,0.6));
+	-webkit-filter: drop-shadow(0 14px 16px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 14px 16px rgba(0,0,0,0.5));
 }
 
 div.portfolio-side p {
@@ -113,9 +116,7 @@ div.project {
 }
 
 div.project.p1 {
-	background-image: 
-		url(images/swirls-outline.svg),
-		url(images/swirls-filled.svg);
+	background-image: url(images/swirls-outline.svg), url(images/swirls-filled.svg);
 	background-position: top left, bottom right;
 	background-repeat: no-repeat;
 	background-size: 40%, 70%;
@@ -123,6 +124,10 @@ div.project.p1 {
 }
 
 div.project.p2 {
+	background-image: url(images/mini-blobs.svg), url(images/mini-blobs-2.svg);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
+	background-size: 20%, 22%;
 	background-color: #FC8989;
 }
 
@@ -169,6 +174,10 @@ div.project.p5 img {
 		background-size: 65%, 100%;
 	}
 
+	div.project.p2 {
+		background-size: 30%, 40%;
+	}
+
 }
 
 
@@ -203,7 +212,6 @@ div.project.p5 img {
     		  opacity: 1;
   }
 }
-
 
 .slide-left {
 	-webkit-animation: slide-left 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
