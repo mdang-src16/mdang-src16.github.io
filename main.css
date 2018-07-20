@@ -112,25 +112,25 @@ div.portfolio-side p {
 
 div.project {
 	padding: 2.8rem;
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
 }
 
 div.project.p1 {
 	background-image: url(images/swirls-outline.svg), url(images/swirls-filled.svg);
-	background-position: top left, bottom right;
-	background-repeat: no-repeat;
 	background-size: 40%, 70%;
 	background-color: #74CFFF;
 }
 
 div.project.p2 {
 	background-image: url(images/mini-blobs.svg), url(images/mini-blobs-2.svg);
-	background-position: top left, bottom right;
-	background-repeat: no-repeat;
 	background-size: 20%, 22%;
 	background-color: #FC8989;
 }
 
 div.project.p3 {
+	background-image: url(images/tri-pattern.svg), url(images/tri-pattern-2.svg);
+	background-size: 28%, 40%;
 	background-color: #77E293;
 }
 
