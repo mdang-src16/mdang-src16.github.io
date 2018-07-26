@@ -45,12 +45,13 @@ a.cta {
 	background: -webkit-linear-gradient(40deg, rgba(88,108,255,1) 0%, rgba(152,77,255,1) 100%);
 	background: -o-linear-gradient(40deg, rgba(88,108,255,1) 0%, rgba(152,77,255,1) 100%);
 	background: linear-gradient(130deg, rgba(88,108,255,1) 0%, rgba(152,77,255,1) 100%);
+	transition: all 0.3s ease;
 }
 
 a.cta:hover {
-	animation-name: shadow-drop-2-bottom;
-	-webkit-animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-transform: translateZ(50px) translateY(-12px);
+  transform: translateZ(50px) translateY(-12px);
+  box-shadow: 0 13px 25px -12px rgba(0, 0, 0, 0.75);
 }
 
 a.case-study {
@@ -269,36 +270,6 @@ div.project.p5 img {
   	opacity: 1;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-  }
-}
-
-.shadow-drop-2-bottom {
-	-webkit-animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-@-webkit-keyframes shadow-drop-2-bottom {
-  0% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translateZ(50px) translateY(-12px);
-            transform: translateZ(50px) translateY(-12px);
-    box-shadow: 0 13px 25px -12px rgba(0, 0, 0, 0.75);
-  }
-}
-@keyframes shadow-drop-2-bottom {
-  0% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translateZ(50px) translateY(-12px);
-            transform: translateZ(50px) translateY(-12px);
-    box-shadow: 0 13px 25px -12px rgba(0, 0, 0, 0.75);
   }
 }
 
