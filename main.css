@@ -13,7 +13,8 @@ h1, h2, h3, h4, p, a {
 }
 
 h1 {
-	font-weight: 900;
+	font-weight: 700;
+	font-size: 3rem;
 	line-height: 1.1;
 	padding-bottom: 2rem;
 }
@@ -71,7 +72,7 @@ div.col-md-4 {
 }
 
 div.info-side {
-	background-image: url(images/wavy-blob.svg);
+	background-image: url(images/background-elements/wavy-blob.svg);
 	background-position: bottom center;
 	background-repeat: no-repeat; 
 	-webkit-box-shadow: 12px 0 66px rgba(0, 0, 0, 0.25); 
@@ -88,6 +89,11 @@ div.info-side p:nth-of-type(2) {
 
 div.col-md-8.scrollable {
 	overflow: scroll;
+}
+
+img.logo {
+	width: 40%;
+	margin: 0 0 4.5rem 0;
 }
 
 div.portfolio-side img {
@@ -118,37 +124,41 @@ div.project {
 }
 
 div.project.p1 {
-	background-image: url(images/swirls-outline.svg), url(images/swirls-filled.svg);
+	background-image: url(images/background-elements/swirls-outline.svg), url(images/background-elements/swirls-filled.svg);
 	background-size: 40%, 70%;
-	background-color: #74CFFF;
+	background-color: #6171EB;
 }
 
 div.project.p2 {
-	background-image: url(images/mini-blobs.svg), url(images/mini-blobs-2.svg);
+	background-image: url(images/background-elements/mini-blobs-blue-tl.svg), url(images/background-elements/mini-blobs-blue-br.svg);
 	background-size: 20%, 22%;
-	background-color: #FC8989;
+	background-color: #2C2E31;
 }
 
 div.project.p3 {
-	background-image: url(images/tri-pattern.svg), url(images/tri-pattern-2.svg);
+	background-image: url(images/background-elements/tri-pattern.svg), url(images/background-elements/tri-pattern-2.svg);
 	background-size: 28%, 40%;
 	background-color: #77E293;
 }
 
 div.project.p4 {
-	background-color: #6298F2;
+	background-image: url(images/background-elements/wavy-tl.svg), url(images/background-elements/wavy-br.svg);
+	background-size: 35%, 30%;
+	background-color: #3571D4;
 }
 
 div.project.p5 {
-	background-color: #F29462;
+	background-image: url(images/background-elements/shapes-tl.svg), url(images/background-elements/shapes-br.svg);
+	background-size: 30%, 30%;
+	background-color: #FA6C60;
 }
 
-div.project.p1 img,
-div.project.p3 img {
+div.project.p1 img {
 	width: 40%;
 }
 
 div.project.p2 img,
+div.project.p3 img,
 div.project.p4 img,
 div.project.p5 img {
 	width: 80%;
@@ -158,12 +168,12 @@ div.project.p5 img {
 /**   Media Queries   **/
 
 @media (max-width: 767.98px) { 
-	div.project.p1 img,
-	div.project.p3 img {
+	div.project.p1 img {
 		width: 100%;
 	}
 	
 	div.project.p2 img,
+	div.project.p3 img,
 	div.project.p4 img,
 	div.project.p5 img {
 		width: 100%;
@@ -177,6 +187,19 @@ div.project.p5 img {
 	div.project.p2 {
 		background-size: 30%, 40%;
 	}
+
+	div.project.p3 {
+		background-size: 38%, 56%;
+	}
+
+	div.project.p4 {
+		background-size: 50%, 45%;
+	}
+
+	div.project.p5 {
+		background-size: 36%, 40%;
+	}
+
 
 }
 
