@@ -154,7 +154,14 @@ div.project.p5 {
 	background-color: #FA6C60;
 }
 
-div.project.p1 img {
+div.project.p6 {
+	background-image: url(images/background-elements/boashape-tl.svg), url(images/background-elements/boashape-br.svg);
+	background-size: 52%, 46%;
+	background-color: #f13131;
+}
+
+div.project.p1 img,
+div.project.p6 img {
 	width: 40%;
 }
 
@@ -169,7 +176,8 @@ div.project.p5 img {
 /**   Media Queries   **/
 
 @media (max-width: 767.98px) { 
-	div.project.p1 img {
+	div.project.p1 img,
+	div.project.p6 img {
 		width: 100%;
 	}
 	
@@ -199,6 +207,10 @@ div.project.p5 img {
 
 	div.project.p5 {
 		background-size: 36%, 40%;
+	}
+
+	div.project.p6 {
+		background-size: 80%, 60%;
 	}
 
 
