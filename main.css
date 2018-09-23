@@ -41,6 +41,7 @@ a.cta {
 	color: #FFF;
 	border-radius: 2rem;
 	height: 100%;
+	margin: 2rem 0;
 	padding: .7rem 3rem;
 	background: rgb(88,108,255);
 	background: -webkit-linear-gradient(40deg, rgba(88,108,255,1) 0%, rgba(152,77,255,1) 100%);
