@@ -90,6 +90,7 @@ div.info-side p:nth-of-type(2) {
 div.col-md-8.scrollable {
 	overflow: scroll;
 	overflow-x: hidden;
+	max-height: 100vh;
 }
 
 img.logo {
