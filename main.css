@@ -52,8 +52,9 @@ a.cta {
 
 a.cta:hover {
 	-webkit-transform: translateZ(50px) translateY(-12px);
-  transform: translateZ(50px) translateY(-12px);
-  box-shadow: 0 13px 25px -12px rgba(0, 0, 0, 0.75);
+  	transform: translateZ(50px) translateY(-12px);
+	box-shadow: 0 13px 25px -12px rgba(0, 0, 0, 0.75);
+	color: #FFF;  
 }
 
 a.case-study {
