@@ -163,6 +163,12 @@ div.project.p6 {
 	background-color: #f13131;
 }
 
+div.project.p7 {
+	background-image: url(images/background-elements/tri-pattern.svg), url(images/background-elements/tri-pattern-2.svg);
+	background-size: 28%, 40%;
+	background-color: #2f2f2f;
+}
+
 div.project.p1 img,
 div.project.p6 img {
 	width: 40%;
@@ -216,6 +222,9 @@ div.project.p5 img {
 		background-size: 80%, 60%;
 	}
 
+	div.project.p7 {
+		background-size: 38%, 56%;
+	}
 
 }
 
