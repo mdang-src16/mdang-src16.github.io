@@ -163,13 +163,14 @@ div.project.p7 {
 	background-color: #2f2f2f;
 }
 
-div.project.p8 {
+div.project.p8, div.project.p9 {
 	background-image: url(images/background-elements/wavy-tl-2.svg), url(images/background-elements/wavy-br-2.svg);
 	background-size: 35%, 30%;
 	background-color: #F0F1F2;
 }
 
-div.project.p8 h2, div.project.p8 p, div.project.p8 a {
+div.project.p8 h2, div.project.p8 p, div.project.p8 a,
+div.project.p9 h2, div.project.p9 p, div.project.p9 a {
 	color: #3a3b48;
 }
 
