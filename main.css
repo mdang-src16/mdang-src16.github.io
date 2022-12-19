@@ -210,7 +210,9 @@ div.project.p5 img {
 
 @media (max-width: 767.98px) { 
 	div.project.p1 img,
-	div.project.p6 img {
+	div.project.p6 img,
+	div.project.p9 img,
+	div.project.p10 img {
 		width: 100%;
 	}
 	
@@ -252,6 +254,10 @@ div.project.p5 img {
 
 	div.project.p8 {
 		background-size: 38%, 56%;
+	}
+
+	div.portfolio-side img {
+		padding: 2.5rem 0;
 	}
 
 }
