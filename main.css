@@ -154,19 +154,25 @@ div.project.p5 {
 div.project.p6 {
 	background-image: url(images/background-elements/boashape-tl.svg), url(images/background-elements/boashape-br.svg);
 	background-size: 52%, 46%;
-	background-color: #f13131;
+	background-color: #F55050;
 }
 
 div.project.p7 {
 	background-image: url(images/background-elements/tri-pattern.svg), url(images/background-elements/tri-pattern-2.svg);
 	background-size: 28%, 40%;
-	background-color: #2f2f2f;
+	background-color: #2F2F2F;
 }
 
 div.project.p8, div.project.p9 {
 	background-image: url(images/background-elements/wavy-tl-2.svg), url(images/background-elements/wavy-br-2.svg);
 	background-size: 35%, 30%;
 	background-color: #F0F1F2;
+}
+
+div.project.p10 {
+	background-image: url(images/background-elements/circle-tl.svg), url(images/background-elements/circle-br.svg);
+	background-size: 30%, 40%;
+	background-color: #E69057;
 }
 
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
@@ -177,6 +183,10 @@ div.project.p9 h2, div.project.p9 p, div.project.p9 a {
 div.project.p1 img,
 div.project.p6 img {
 	width: 40%;
+}
+
+div.project.p10 img {
+	width: 74%;
 }
 
 div.project.p2 img,
