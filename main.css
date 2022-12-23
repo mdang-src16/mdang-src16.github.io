@@ -175,6 +175,12 @@ div.project.p10 {
 	background-color: #E69057;
 }
 
+div.project.p11 {
+	background-image: url(images/background-elements/squares-tl.svg), url(images/background-elements/squares-br.svg);
+	background-size: 34%, 10%;
+	background-color: #8DBEFF;
+}
+
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
 div.project.p9 h2, div.project.p9 p, div.project.p9 a {
 	color: #3a3b48;
@@ -185,7 +191,8 @@ div.project.p6 img {
 	width: 40%;
 }
 
-div.project.p10 img {
+div.project.p10 img,
+div.project.p11 img {
 	width: 74%;
 }
 
@@ -212,7 +219,8 @@ div.project.p5 img {
 	div.project.p1 img,
 	div.project.p6 img,
 	div.project.p9 img,
-	div.project.p10 img {
+	div.project.p10 img,
+	div.project.p11 img {
 		width: 100%;
 	}
 	
@@ -221,6 +229,9 @@ div.project.p5 img {
 	div.project.p4 img,
 	div.project.p5 img {
 		width: 100%;
+	}
+
+	div.portfolio-side img {
 		padding: 2.5rem 0;
 	}
 
@@ -255,11 +266,6 @@ div.project.p5 img {
 	div.project.p8 {
 		background-size: 38%, 56%;
 	}
-
-	div.portfolio-side img {
-		padding: 2.5rem 0;
-	}
-
 }
 
 
