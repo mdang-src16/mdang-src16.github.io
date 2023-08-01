@@ -57,6 +57,7 @@ a.cta:hover {
 	color: #FFF;  
 }
 
+/*toss this below
 a.case-study {
 	text-decoration: none;
 	font-size: 1.2rem;
@@ -67,6 +68,44 @@ a.case-study {
 
 a.case-study:hover {
 	opacity: 1;
+}
+*/
+
+.btn-primary.amend {
+	background-color: none;
+	border-color: none;
+}
+
+.case-study {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #FFF;
+	opacity: .6;
+}
+
+.case-study:hover {
+	color: #FFF;
+	opacity: 1;
+}
+
+div.modal-content {
+	background-color: #F8F8F8;
+}
+
+div.modal-dialog {
+	max-width: 75%;
+}
+
+div.modal-body img {
+	max-width: 100%;
+}
+
+div.modal-body p {
+	color: #3A3B48 !important; 
+	opacity: 1 !important;
+	padding: 2.5rem 0 0 2.5rem;
+	margin-bottom: 0;
 }
 
 div.col-md-4 {
