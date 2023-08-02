@@ -213,9 +213,9 @@ div.project.p12 {
 }
 
 div.project.p13 {
-	background-image: url(images/background-elements/asdf.svg), url(images/background-elements/asdf.svg);
-	background-size: 54%, 50%;
-	background-color: #31363d;
+	background-image: url(images/background-elements/astro-tl.svg), url(images/background-elements/astro-br.svg);
+	background-size: 24%, 40%;
+	background-color: #252526;
 }
 
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
