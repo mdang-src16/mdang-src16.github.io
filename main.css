@@ -212,6 +212,12 @@ div.project.p12 {
 	background-color: #31363d;
 }
 
+div.project.p13 {
+	background-image: url(images/background-elements/asdf.svg), url(images/background-elements/asdf.svg);
+	background-size: 54%, 50%;
+	background-color: #31363d;
+}
+
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
 div.project.p9 h2, div.project.p9 p, div.project.p9 a {
 	color: #3a3b48;
@@ -231,7 +237,8 @@ div.project.p2 img,
 div.project.p3 img,
 div.project.p4 img,
 div.project.p5 img,
-div.project.p12 img {
+div.project.p12 img,
+div.project.p13 img {
 	width: 80%;
 }
 
