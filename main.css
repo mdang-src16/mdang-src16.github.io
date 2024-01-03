@@ -57,7 +57,12 @@ a.cta:hover {
 	color: #FFF;  
 }
 
-a.case-study {
+.btn-primary.amend {
+	background-color: none;
+	border-color: none;
+}
+
+.case-study {
 	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -65,8 +70,28 @@ a.case-study {
 	opacity: .6;
 }
 
-a.case-study:hover {
+.case-study:hover {
+	color: #FFF;
 	opacity: 1;
+}
+
+div.modal-content {
+	background-color: #F8F8F8;
+}
+
+div.modal-dialog {
+	max-width: 75%;
+}
+
+div.modal-body img {
+	max-width: 100%;
+}
+
+div.modal-body p {
+	color: #3A3B48 !important; 
+	opacity: 1 !important;
+	padding: 2.5rem 0 0 2.5rem;
+	margin-bottom: 0;
 }
 
 div.col-md-4 {
@@ -187,6 +212,12 @@ div.project.p12 {
 	background-color: #31363d;
 }
 
+div.project.p13 {
+	background-image: url(images/background-elements/astro-tl.svg), url(images/background-elements/astro-br.svg);
+	background-size: 24%, 40%;
+	background-color: #252526;
+}
+
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
 div.project.p9 h2, div.project.p9 p, div.project.p9 a {
 	color: #3a3b48;
@@ -206,7 +237,8 @@ div.project.p2 img,
 div.project.p3 img,
 div.project.p4 img,
 div.project.p5 img,
-div.project.p12 img {
+div.project.p12 img,
+div.project.p13 img {
 	width: 80%;
 }
 
