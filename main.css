@@ -221,11 +221,16 @@ div.project.p13 {
 div.project.p14 {
 	background-image: url(images/background-elements/grid.svg), url(images/background-elements/plus.svg);
 	background-size: 30%, 20%;
-	background-color: #1A1A1A;
+	background-color: #FCFCFC;
 }
 
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
-div.project.p9 h2, div.project.p9 p, div.project.p9 a {
+div.project.p9 h2, div.project.p9 p, div.project.p9 a, 
+div.project.p14 h2, div.project.p14 p {
+	color: #3a3b48;
+}
+
+div.project.p14 .btn {
 	color: #3a3b48;
 }
 
