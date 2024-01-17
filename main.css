@@ -218,8 +218,27 @@ div.project.p13 {
 	background-color: #252526;
 }
 
+div.project.p14 {
+	background-image: url(images/background-elements/grid.svg), url(images/background-elements/plus.svg);
+	background-size: 30%, 25%;
+	background-color: #FCFCFC;
+}
+
+div.project.p15 {
+	background-image: url(images/background-elements/marker-tl.svg), url(images/background-elements/marker-br.svg);
+	background-size: 30%, 55%;
+	background-color: #FDC47A;
+}
+
 div.project.p8 h2, div.project.p8 p, div.project.p8 a,
-div.project.p9 h2, div.project.p9 p, div.project.p9 a {
+div.project.p9 h2, div.project.p9 p, div.project.p9 a, 
+div.project.p14 h2, div.project.p14 p, div.project.p15 h2,
+div.project.p15 p {
+	color: #3a3b48;
+}
+
+div.project.p14 .btn,
+div.project.p15 .btn {
 	color: #3a3b48;
 }
 
@@ -238,8 +257,16 @@ div.project.p3 img,
 div.project.p4 img,
 div.project.p5 img,
 div.project.p12 img,
-div.project.p13 img {
+div.project.p13 img,
+div.project.p14 img,
+div.project.p15 img {
 	width: 80%;
+}
+
+div.modal-body a.p15 {
+	color: #2A7AF3;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 
